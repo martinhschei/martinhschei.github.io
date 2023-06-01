@@ -84,7 +84,7 @@ export default function Builder() {
                                 </div>
                             </li>
                             {ensemble.pingConfigurations.map(pingConfiguration => (
-                                <ul key={pingConfiguration.id} style={{"listStyleType": "none", "borderLeft": "30px solid #383838", "textAlign" : "left", "paddingLeft" : "0", "marginBottom": "10px"}}>
+                                <ul key={pingConfiguration.id} style={{"maxWidth": "50%", "listStyleType": "none", "borderLeft": "30px solid #383838", "textAlign" : "left", "paddingLeft" : "0", "marginBottom": "10px"}}>
                                     <li style={{"height" : "40px", "backgroundColor": "#383838", "padding" : "0", "margin": "0"}}> <label>{pingConfiguration.name} </label></li>
                                         <li style={{"padding": "2px"}}><label className="text-black">Power</label><input type="text" /></li>
                                         <li style={{"padding": "2px"}}><label className="text-black">Mode</label><input type="text" /></li>
